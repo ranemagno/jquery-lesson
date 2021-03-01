@@ -1,0 +1,34 @@
+#test {
+  height: 50%;
+}
+/* .flex-next {
+  box-shadow:  5px 10px red;
+} */
+
+.flex-direction-nav a.flex-next:before {
+    color: white;
+}
+.flex-direction-nav a.flex-next:hover:before {
+    color: rgb(236, 128, 50);
+}
+.flex-direction-nav a.flex-prev:before {
+    color: white;
+}
+.flex-direction-nav a.flex-prev:hover:before {
+    color: rgb(236, 128, 50);
+}
+
+.header-container {
+  margin: 5%;
+  position: absolute;
+  font-size: 2em;
+  font-family: monospace;
+}
+.train,
+.water {
+  color: white;
+}
+
+/* #redBackground::before {
+  content: "Hello ";
+} */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Basic Template</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          slideshow: true,
+          slideshowSpeed: 3000,
+          randomize: true,
+          touch: true
+        });
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <!-- <h1 id="redBackground">stranger</h1> -->
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <div class="header-container">
+            <h2>Mountain,</h2>
+            <h3>Not your everyday mountain</h3>
+          </div>
+          <img src="css/images/mountain.jpg" id="test"/>
+        </li>
+        <li>
+          <div class="header-container water">
+            <h2>Water,</h2>
+            <h3>Just your everyday mountain</h3>
+          </div>
+          <img src="css/images/water.jpg" />
+        </li>
+        <li>
+          <div class="header-container train">
+            <h2>Train,</h2>
+            <h3>You are inside a train</h3>
+          </div>
+          <img src="css/images/train.jpg" />
+        </li>
+      </ul>
+    </div>
+
+  </body>
+</html>
